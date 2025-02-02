@@ -1,0 +1,125 @@
+/* Overall container for the product section */
+.product-container {   
+    margin: 0 auto; /* Centers the navbar within the page */
+    padding: 10px; /* Adds some padding */
+    height: 580px;
+    background-color: rgb(43, 58, 43);
+  }
+  
+  /* Container for the background image */
+  .imgdv-container {
+    position: relative;
+    width: 100%;
+  }
+  .imgdv-container{
+     position: relative;
+     border-radius: 50px;
+     margin-left: 150px;
+    width: 75%;
+    height: 500px; /* Make the container take full viewport height */
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../MIT-Labby-01.jpg');
+    background-size: cover; /* Ensures the image covers the container */
+    background-position: center; /* Centers the image */
+  }
+  
+  /* The background image that covers the entire container */
+  .background-image {
+    width:80%;
+    margin-left: 150px;  
+    border-radius: 50px;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* The content (products) that will be overlayed on top of the image */
+  .overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2; /* Ensure content appears on top of the image */
+    color: white; /* Text color */
+    padding: 20px;
+   
+  }
+  
+  /* Title for the product section */
+  .product-title {
+    font-family: 'Poppins', sans-serif; /* Elegant, modern font */
+    font-size: 30px; /* Large font size */
+    font-weight: 700; /* Bold font weight */
+    text-align: center; /* Center the title */
+    color: white; /* Dark text color for contrast */
+    text-transform: uppercase; /* Make text all caps for emphasis */
+    letter-spacing: 2px; /* Slightly increased letter spacing for a clean look */
+    margin-top: 40px; /* Adds space above the title */
+    margin-bottom: 20px; /* Adds space below the title */
+    position: relative;
+    /* Adding shadow effect */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5), 1px 1px 3px rgba(0, 0, 0, 0.5); /* Multiple shadows */
+}
+
+  
+  /* Container for the product images */
+  .product-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual product item */
+  .product-item {
+    text-align: center;
+  }
+  
+  /* Style for product images */
+  .product-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for product name under each image */
+  .product-name {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .product-card {
+    background-color:transparent; /* Light background for card */
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-10px); /* Slight lift effect on hover */
+  }
+  .mybutton {
+    font-family: 'Poppins', sans-serif; /* Clean, modern font */
+    font-size: 16px; /* Set font size */
+    font-weight: 600; /* Bold but not too heavy */
+    color: white; /* White text color */
+    background: linear-gradient(45deg, #f39c12, #e74c3c); /* Gradient background */
+    padding: 12px 24px; /* Add padding around the text */
+    border: none; /* Remove default border */
+    border-radius: 50px; /* Rounded corners for a sleek look */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    text-transform: uppercase; /* All caps for emphasis */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  }
+  
+ 

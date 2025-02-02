@@ -1,0 +1,110 @@
+.outerContainer {
+    margin: 0 auto; /* Centers the navbar within the page */
+    padding: 10px; /* Adds some padding */   
+    height: 585px;
+    background-color: rgb(43, 58, 43);
+  }
+  .navband
+  {
+     margin-right: 10px;
+  }
+  .navbar 
+  {
+    border-radius: 30px; /* Rounds the corners if you want additional control */
+    width:75%;
+    margin-left: 150px; 
+    
+  }
+  .navbar-custom {
+    position: fixed;
+    background-color:transparent;/* White background */
+    border-radius: 30px; /* More rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    z-index: 9999;
+   /* Adds padding to make it look cleaner */
+    /* position: absolute;  */
+   
+  }
+  
+  
+  /* Navbar links styling */
+  .navbar-custom .navbar-nav .nav-link {
+    font-weight: 500;
+    color: #333; /* Dark color for the text */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  /* On hover, change color for navbar links */
+  .navbar-custom .navbar-nav .nav-link:hover {
+    color: #28a745; /* Green color when hovering over links */
+  }
+  .navbar-custom .navbar-nav .nav-link{
+    margin-right: 40px;
+    font-size : 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color:white;
+    transition: all 0.3s ease;
+  }
+  /* Button styling */
+  .navbar-custom .btn-outline-success {
+    border-radius: 30px; /* Round the search button */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth button hover effect */
+  }
+  
+  /* Hover effect for the search button */
+  .navbar-custom .btn-outline-success:hover {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+  }
+  
+  /* Navbar toggle button styling */
+  .navbar-custom .navbar-toggler-icon {
+    background-color: #333; /* Dark color for hamburger icon */
+  }
+
+
+.innerContainer {
+  width: 100%;
+  border-radius: 10px; /* Rounded corners for aesthetics */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow around content */
+  position: relative;
+}
+
+
+.innerContainer {
+  position: relative;
+  border-radius: 50px;
+  margin-left: 150px;
+ width: 75%;
+ height: 500px; /* Make the container take full viewport height */
+ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../MIT-Labby-01.jpg');
+ background-size: cover; /* Ensures the image covers the container */
+ background-position: center; /* Centers the image */
+  
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%; /* Centers the text vertically */
+  left: 50%; /* Centers the text horizontally */
+  transform: translate(-50%, -50%); /* Adjusts for exact centering */
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: makes the text more readable on any background */
+}
+.overlay-text span {
+  display: block; /* Makes text more flexible, breaks into multiple lines */
+  font-size: 1.5rem; /* Slightly smaller font for the second line */
+  font-weight: 400; /* Lighter font weight for the tagline */
+  margin-top: 10px;
+}
+
+
+
+

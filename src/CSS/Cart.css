@@ -1,0 +1,97 @@
+/* Cart Container */
+.cart-container {
+    margin: 0 auto; /* Centers the navbar within the page */
+    padding: 10px; /* Adds some padding */
+    height: 580px;
+    background-color: rgb(43, 58, 43);;
+  }
+  
+  /* Cart Content */
+  .cart-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../MIT-Labby-01.jpg'); /* Cart background color */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 75%;
+    height:500px;   
+    margin: 0 auto;
+    background-size: cover; /* Ensures the image covers the container */
+    background-position: center; /* Centers the image */
+  
+  }
+  
+  /* Heading Style */
+  .cart-head {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:white;
+  }
+  
+  /* If the cart is empty text */
+  .cart-items {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .cart-items p {
+    font-size: 18px;
+    color:white;
+  }
+  
+  /* Cart Item Style */
+  .cart-items .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    width: 100%;
+  }
+  
+  .cart-item-image {
+    width: 100px; /* Adjust image size */
+    height: 100px;
+    object-fit: cover; /* Keeps image proportions intact */
+    border-radius: 8px;
+  }
+  
+  .cart-item-details {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .cart-item-details h3 {
+    font-size: 18px;
+    margin: 0;
+    color:white;
+  }
+  
+  .cart-item-details p {
+    font-size: 16px;
+    color: white;
+  }
+  .empty{
+    color:white;
+  }
+  /* Button to Continue Shopping */
+  .continue-shopping {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+  }
+  .cart-content
+  {
+    margin-top: 100px;
+
+  }
+  
