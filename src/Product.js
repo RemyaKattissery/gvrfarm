@@ -3,9 +3,9 @@ import './CSS/Product.css'; // Import the CSS file
 
 export default function Product({addToCart}) {
   const products = [
-    { id: 1, name: 'Milk', price: 50, image: './images/milk2.jpg' },
-    { id: 2, name: 'Yogurt', price: 130, image: './images/yogurt.jpg' },
-    { id: 3, name: 'Paneer', price: 150, image: './images/paneer.jpg' },
+    { id: 1, name: 'Milk', price: 50, image: '/images/milk2.jpg' },
+    { id: 2, name: 'Yogurt', price: 130, image: '/images/yogurt.jpg' },
+    { id: 3, name: 'Paneer', price: 150, image: '/images/paneer.jpg' },
   ];
  
   // Handle adding product to cart
