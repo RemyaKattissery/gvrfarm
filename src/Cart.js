@@ -26,7 +26,7 @@ const Cart = ({ cartItems }) => {
         )}
 
         {/* Button to continue shopping or proceed to checkout */}
-        <a href="/product" className="continue-shopping">Continue Shopping</a>
+        <a href="/Product" className="continue-shopping">Continue Shopping</a>
       </div>
       </div>
     </div>
