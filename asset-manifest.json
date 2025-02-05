@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/gvrfarm/static/css/main.0818c629.css",
-    "main.js": "/gvrfarm/static/js/main.66f38554.js",
+    "main.css": "/gvrfarm/static/css/main.016f0b7e.css",
+    "main.js": "/gvrfarm/static/js/main.1babd0d0.js",
     "static/js/488.ecd4fec1.chunk.js": "/gvrfarm/static/js/488.ecd4fec1.chunk.js",
     "static/media/MIT-Labby-01.jpg": "/gvrfarm/static/media/MIT-Labby-01.b938940b2f0dabf0fae6.jpg",
     "static/media/bootstrap-icons.woff?": "/gvrfarm/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/bootstrap-icons.woff2?": "/gvrfarm/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "index.html": "/gvrfarm/index.html",
-    "main.0818c629.css.map": "/gvrfarm/static/css/main.0818c629.css.map",
-    "main.66f38554.js.map": "/gvrfarm/static/js/main.66f38554.js.map",
+    "main.016f0b7e.css.map": "/gvrfarm/static/css/main.016f0b7e.css.map",
+    "main.1babd0d0.js.map": "/gvrfarm/static/js/main.1babd0d0.js.map",
     "488.ecd4fec1.chunk.js.map": "/gvrfarm/static/js/488.ecd4fec1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0818c629.css",
-    "static/js/main.66f38554.js"
+    "static/css/main.016f0b7e.css",
+    "static/js/main.1babd0d0.js"
   ]
 }
